@@ -114,6 +114,7 @@ public final class MapStripeMsg
         final GameMap map = World.getMap();
         map.startTileUpdate();
         map.updateTiles(tiles);
+        map.updateTiles(tiles);
         map.finishTileUpdate();
 
         World.getLights().refresh();
